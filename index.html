@@ -44,6 +44,7 @@
         'workshops'
         'pycon'
         'forwhom'
+        'hamakor'
         'location'
         'faq'
         'footer';
@@ -79,7 +80,7 @@
           'header header header'
           '. timeline .'
           'tickets cfp workshops'
-          'pycon . forwhom'
+          'pycon forwhom hamakor'
           'location location location'
           'faq faq faq'
           'footer footer footer';
@@ -133,6 +134,9 @@
     }
     .forwhom {
       grid-area: forwhom;
+    }
+    .hamakor {
+      grid-area: hamakor;
     }
     .location {
       grid-area: location;
@@ -188,7 +192,7 @@
       <div class="header"></div>
       <div id="timeline" class="timeline anchor">
         <ul class="timeline-event">
-          <li>June 2nd Django Girls</li>
+          <li>June 2nd  <a href="https://djangogirls.org/raanana">Django Girls</a></li>
           <li>June 3rd-4th Main Conference</li>
           <li>June 5th Workshops Day</li>
         </ul>
@@ -203,12 +207,7 @@
       <div class="cfp">
         <h3>Talks</h3>
         <p>
-          The CFP is now closed. We are reviewing the proposals, and preparing
-	  the conference agenda. We expect to publish the agenda in early May.
-	</p>
-          Note that you can still submit
-  	  <a href="https://cfp.pycon.org.il/workshops/cfp">proposals for
-	  workshops</a>.
+          Schedule is available <a href=schedule.html>here</a>.
         </p>
       </div>
       <div class="workshops">
@@ -220,9 +219,7 @@
           <a href="https://goo.gl/maps/e33gtAG2f8s">Microsoft Reactor</a>.
         </p>
         <p>
-          If you have an idea for an awesome topic for a workshop or tutorial
-          which you can guide, please submit a proposal at the
-          <a href="https://cfp.pycon.org.il/workshops/cfp">workshops CFP</a>.
+          Schedule for the workshops is available <a href="schedule.html#jun5">here</a>.
         </p>
       </div>
       <div class="pycon">
@@ -246,6 +243,16 @@
           advanced users. A large benefit of attending is meeting the other
           attendees, speaking to them in a relaxed social environment and
           networking.
+        </p>
+      </div>
+      <div class="hamakor">
+        <h3>Open Source</h3>
+        <p>
+          <img src="Hamakor_logo.png" alt="Hamakor logo"
+			 style="width: 15ex; float: right; margin-left: 1ex;" />
+          Python itself, and most of its ecosystem, have always been Open Source
+           software. PyCon Israel is organized under the auspices of <a href="https://www.hamakor.org.il">Hamakor</a>, the
+           Israeli Open Source and Free Software Association.
         </p>
       </div>
       <div id="location" class="location anchor">
